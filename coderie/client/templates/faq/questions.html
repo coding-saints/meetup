@@ -1,0 +1,20 @@
+<template name="homeQuestions">
+
+
+    <form method="POST" role="form">
+        <legend>Ask Any Questions Here</legend>
+
+        <div class="form-group">
+            {{text_field 'title'}}
+        </div>
+
+        <div class="form-group">
+            {{text_area 'description'}}
+        </div>
+
+        {{submit_button 'Add'}}
+    </form>
+
+
+
+</template>
